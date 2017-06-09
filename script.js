@@ -27,7 +27,7 @@ function card(name, suit, prop){
 
 // deck creation, will return array of 52 cards in order.
 function deck(){
-  console.log("yle");
+  //console.log("asdasd");
   $('#hit').removeAttr('disabled');
   $('#stand').removeAttr('disabled');
   $('#double').removeAttr('disabled');
@@ -63,7 +63,7 @@ function shuffle() {
 }
 // deals 1 card only, multiple hits can "bust" player.
 function hit() {
-  console.log("hit");
+  //console.log("hit");
 
   if (cards.length > 0)
      player.push(cards.shift());
@@ -72,8 +72,8 @@ function hit() {
     var totalPlayer = cardCounter(player);
   if (totalPlayer > 21){
     winner = "dealer";
-    ganador(winner);
-    console.log("Player has busted");
+    getWinner(winner);
+  //  console.log("Player has busted");
   }
 }
 // deals 2 cards and populates global var player and dealer.
@@ -86,6 +86,7 @@ function deal() {
   }
 }
 
+//count K/Q/J as 10, and count A as 11 if total is less than 11.
 //
 function cardCounter(cards) {
 
@@ -115,14 +116,12 @@ function cardCounter(cards) {
       // console.log(total);
   return total;
 }
-
+//need function to run until dealer hits 17
 function dealerPlay(){
   //console.log("stand");
   var totalDealer = cardCounter(dealer);
     //console.log(totalDealer);
-
-
-  while (totalDealer < 17) {
+		while (totalDealer < 17) {
 
     dealer.push(cards.shift());
     totalDealer = cardCounter(dealer);
@@ -130,22 +129,22 @@ function dealerPlay(){
 
   if (totalDealer > 21){
     winner = "player";
-    alert("Dealer has busted");
+    //alert("Dealer has busted");
   }
   totalPlayer = cardCounter(player);
   if (totalPlayer > totalDealer){
     winner = "player";
-    ganador(winner);
+    getWinner(winner);
   } else if (totalDealer > totalPlayer) {
     winner = "dealer";
-    ganador(winner);
+    getWinner(winner);
   } else if (totalDealer == totalPlayer){
     alert("It's a tie")}
 
     }
 
-function ganador(winner){
-  alert("And the winner is " + winner);
+function getWinner(winner){
+  alert(winner + " wins, game over.");
   return false;
 
 }
