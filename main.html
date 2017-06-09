@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="sprite" type="text/css" href="sprite.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="script.js"></script>
+
+      <title> BLACKJACK </title>
+  </head>
+
+  <body>
+    <div id ="maincontainer">
+        <div id ='deck'> deck </div>
+        <div id ='card'class='aceSpades'></div>
+        <div id ='dealerCards'> dealer cards</div>
+        <div id ='cards'> player cards</div>
+        <div id ='score'> player counter </div>
+        <div id ='dealerScore'> dealer counter </div>
+        <div id ='buttons'>
+            <button id='hit' disabled="" onClick="hit()">hit</button>
+            <button id='stand' disabled="" onClick="dealerPlay()">stand</button>
+            <button id='double' disabled="">double</button>
+      </div>
+
+        <button id='dealcards' onClick="deck(); shuffle(); deal();">Deal</button>
+
+        </div>
+        
+
+
+  </body>
+
+</html>

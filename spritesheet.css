@@ -1,0 +1,270 @@
+.sprite {
+	background: url('sprite.png') no-repeat 0 0;
+	width: 1020px;
+	height: 390px;
+}
+.cardBack {
+	background: url('imgs/sprite.png') no-repeat -949px 0;
+	width: 71px;
+	height: 96px;
+}
+.aceClubs {
+	background: url('imgs/sprite.png') no-repeat 0 0;
+	width: 71px;
+	height: 96px;
+}
+.twoClubs {
+	background: url('imgs/sprite.png') no-repeat -73px 0;
+	width: 71px;
+	height: 96px;
+}
+.threeClubs {
+	background: url('imgs/sprite.png') no-repeat -146px 0;
+	width: 71px;
+	height: 96px;
+}
+.fourClubs {
+	background: url('imgs/sprite.png') no-repeat -219px 0;
+	width: 71px;
+	height: 96px;
+}
+.fiveClubs {
+	background: url('imgs/sprite.png') no-repeat -292px 0;
+	width: 71px;
+	height: 96px;
+}
+.sixClubs {
+	background: url('imgs/sprite.png') no-repeat -365px 0;
+	width: 71px;
+	height: 96px;
+}
+.sevenClubs {
+	background: url('imgs/sprite.png') no-repeat -438px 0;
+	width: 71px;
+	height: 96px;
+}
+.eightClubs {
+	background: url('imgs/sprite.png') no-repeat -511px 0;
+	width: 71px;
+	height: 96px;
+}
+.nineClubs {
+	background: url('imgs/sprite.png') no-repeat -584px 0;
+	width: 71px;
+	height: 96px;
+}
+.tenClubs {
+	background: url('imgs/sprite.png') no-repeat -657px 0;
+	width: 71px;
+	height: 96px;
+}
+.jackClubs {
+	background: url('imgs/sprite.png') no-repeat -730px 0;
+	width: 71px;
+	height: 96px;
+}
+.queenClubs {
+	background: url('imgs/sprite.png') no-repeat -803px 0;
+	width: 71px;
+	height: 96px;
+}
+.kingClubs {
+	background: url('imgs/sprite.png') no-repeat -876px 0;
+	width: 71px;
+	height: 96px;
+}
+.aceSpades {
+	background: url('imgs/sprite.png') no-repeat 0 -98px;
+	width: 71px;
+	height: 96px;
+}
+.twoSpades {
+	background: url('imgs/sprite.png') no-repeat -73px -98px;
+	width: 71px;
+	height: 96px;
+}
+.threeSpades {
+	background: url('imgs/sprite.png') no-repeat -146px -98px;
+	width: 71px;
+	height: 96px;
+}
+.fourSpades {
+	background: url('imgs/sprite.png') no-repeat -219px -98px;
+	width: 71px;
+	height: 96px;
+}
+.fiveSpades {
+	background: url('imgs/sprite.png') no-repeat -292px -98px;
+	width: 71px;
+	height: 96px;
+}
+.sixSpades {
+	background: url('imgs/sprite.png') no-repeat -365px -98px;
+	width: 71px;
+	height: 96px;
+}
+.sevenSpades {
+	background: url('imgs/sprite.png') no-repeat -438px -98px;
+	width: 71px;
+	height: 96px;
+}
+.eightSpades {
+	background: url('imgs/sprite.png') no-repeat -511px -98px;
+	width: 71px;
+	height: 96px;
+}
+.nineSpades {
+	background: url('imgs/sprite.png') no-repeat -584px -98px;
+	width: 71px;
+	height: 96px;
+}
+.tenSpades {
+	background: url('imgs/sprite.png') no-repeat -657px -98px;
+	width: 71px;
+	height: 96px;
+}
+.jackSpades {
+	background: url('imgs/sprite.png') no-repeat -730px -98px;
+	width: 71px;
+	height: 96px;
+}
+.queenSpades {
+	background: url('imgs/sprite.png') no-repeat -803px -98px;
+	width: 71px;
+	height: 96px;
+}
+.kingSpades {
+	background: url('imgs/sprite.png') no-repeat -876px -98px;
+	width: 71px;
+	height: 96px;
+}
+.aceHearts {
+	background: url('imgs/sprite.png') no-repeat 0 -196px;
+	width: 71px;
+	height: 96px;
+}
+.twoHearts {
+	background: url('imgs/sprite.png') no-repeat -73px -196px;
+	width: 71px;
+	height: 96px;
+}
+.threeHearts {
+	background: url('imgs/sprite.png') no-repeat -146px -196px;
+	width: 71px;
+	height: 96px;
+}
+.fourHearts {
+	background: url('imgs/sprite.png') no-repeat -219px -196px;
+	width: 71px;
+	height: 96px;
+}
+.fiveHearts {
+	background: url('imgs/sprite.png') no-repeat -292px -196px;
+	width: 71px;
+	height: 96px;
+}
+.sixHearts {
+	background: url('imgs/sprite.png') no-repeat -365px -196px;
+	width: 71px;
+	height: 96px;
+}
+.sevenHearts {
+	background: url('imgs/sprite.png') no-repeat -438px -196px;
+	width: 71px;
+	height: 96px;
+}
+.eightHearts {
+	background: url('imgs/sprite.png') no-repeat -511px -196px;
+	width: 71px;
+	height: 96px;
+}
+.nineHearts {
+	background: url('imgs/sprite.png') no-repeat -584px -196px;
+	width: 71px;
+	height: 96px;
+}
+.tenHearts {
+	background: url('imgs/sprite.png') no-repeat -657px -196px;
+	width: 71px;
+	height: 96px;
+}
+.jackHearts {
+	background: url('imgs/sprite.png') no-repeat -730px -196px;
+	width: 71px;
+	height: 96px;
+}
+.queenHearts {
+	background: url('imgs/sprite.png') no-repeat -803px -196px;
+	width: 71px;
+	height: 96px;
+}
+.kingHearts {
+	background: url('imgs/sprite.png') no-repeat -876px -196px;
+	width: 71px;
+	height: 96px;
+}
+.aceDiamonds {
+	background: url('imgs/sprite.png') no-repeat 0 -294px;
+	width: 71px;
+	height: 96px;
+}
+.twoDiamonds {
+	background: url('imgs/sprite.png') no-repeat -73px -294px;
+	width: 71px;
+	height: 96px;
+}
+.threeDiamonds {
+	background: url('imgs/sprite.png') no-repeat -146px -294px;
+	width: 71px;
+	height: 96px;
+}
+.fourDiamonds {
+	background: url('imgs/sprite.png') no-repeat -219px -294px;
+	width: 71px;
+	height: 96px;
+}
+.fiveDiamonds {
+	background: url('imgs/sprite.png') no-repeat -292px -294px;
+	width: 71px;
+	height: 96px;
+}
+.sixDiamonds {
+	background: url('imgs/sprite.png') no-repeat -365px -294px;
+	width: 71px;
+	height: 96px;
+}
+.sevenDiamonds {
+	background: url('imgs/sprite.png') no-repeat -438px -294px;
+	width: 71px;
+	height: 96px;
+}
+.eightDiamonds {
+	background: url('imgs/sprite.png') no-repeat -511px -294px;
+	width: 71px;
+	height: 96px;
+}
+.nineDiamonds {
+	background: url('imgs/sprite.png') no-repeat -584px -294px;
+	width: 71px;
+	height: 96px;
+}
+.tenDiamonds {
+	background: url('imgs/sprite.png') no-repeat -657px -294px;
+	width: 71px;
+	height: 96px;
+}
+.jackDiamonds {
+	background: url('imgs/sprite.png') no-repeat -730px -294px;
+	width: 71px;
+	height: 96px;
+}
+.queenDiamonds {
+	background: url('imgs/sprite.png') no-repeat -803px -294px;
+	width: 71px;
+	height: 96px;
+}
+.kingDiamonds {
+	background: url('imgs/sprite.png') no-repeat -876px -294px;
+	width: 71px;
+	height: 96px;
+}  

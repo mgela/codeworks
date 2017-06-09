@@ -1,0 +1,107 @@
+
+#maincontainer{
+  width: 800px;
+  height: 600px;
+  position: relative;
+  background-color: green;
+  left: 300px;
+  top: 40px;
+  background-image: url("background.jpg");
+  background-size: 800px 600px;
+}
+
+#deck{
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  top: 60px;
+  right: 60px;
+  border: dashed 2px;
+  transform: rotate(23deg);
+}
+#dealerCards{
+  position: absolute;
+  border: dashed 1px;
+  width: 100px;
+  height: 80px;
+  right: 350px;
+  top: 0px;
+  overflow: visible;
+}
+#cards{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  bottom: 100px;
+  right: 350px;
+  border: dashed 1px;
+  overflow: visible;
+}
+#score{
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: 300px;
+  right: 350px;
+  border: dashed 1px;
+}
+#dealerScore{
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: 150px;
+  right: 350px;
+  border: dashed 1px;
+}
+#buttons{
+  margin: 10px;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  background-color: green;
+  visibility: hidden;
+}
+#dealcards{
+  width: 15em;
+  background-color: white;
+  position: absolute;
+  bottom: 100px;
+  right: 15px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+
+}
+
+#deal{
+  width: 5em;
+  height: 5em;
+  border-radius: 10px;
+  visibility: visible;
+  background-color: red;
+  color: white;
+}
+#hit{
+  width: 5em;
+  height: 5em;
+  border-radius: 10px;
+  visibility: visible;
+  background-color: red;
+  color: white;
+}
+#stand{
+  width: 5em;
+  height: 5em;
+  border-radius: 10px;
+  visibility: visible;
+  background-color: red;
+  color: white;
+}
+#double{
+  width: 5em;
+  height: 5em;
+  border-radius: 10px;
+  visibility: visible;
+  background-color: red;
+  color: white;
+}
