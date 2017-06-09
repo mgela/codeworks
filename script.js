@@ -1,25 +1,14 @@
 
 // global variables
-
+////////////////////////////////////////////////////////////////////////////////
 var cards = [];
 var player = [];
 var dealer = [];
 var winner = "";
-//
-/*  function Stack() {
-
-  // Create an empty array of cards.
-
-  //cards = new Array();
-
-  this.deck  = deck;
-  this.shuffle   = shuffle;
-  this.deal      = deal;
-
-}*/
+////////////////////////////////////////////////////////////////////////////////
 
 function card(name, suit, prop){
-	// this.value = value; // A-K-J-Q value NOT OK.
+
 	this.name = name;
 	this.suit = suit;
   this.cssClass = suit + "_" + name;
@@ -149,13 +138,13 @@ function getWinner(winner){
 
 }
 // BUTTONS
+//$('#score').document.write(cardCounter(player));
 
 
 
-
-
-console.log(deck());
+/*console.log(deck());
 console.log(shuffle());
 console.log(deal());
 console.log(player);
 console.log(dealer);
+*/

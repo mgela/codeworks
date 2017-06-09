@@ -8,67 +8,67 @@
 	width: 71px;
 	height: 96px;
 }
-.aceClubs {
+.Clubs_A {
 	background: url('imgs/sprite.png') no-repeat 0 0;
 	width: 71px;
 	height: 96px;
 }
-.twoClubs {
+.Clubs_2 {
 	background: url('imgs/sprite.png') no-repeat -73px 0;
 	width: 71px;
 	height: 96px;
 }
-.threeClubs {
+.Clubs_3 {
 	background: url('imgs/sprite.png') no-repeat -146px 0;
 	width: 71px;
 	height: 96px;
 }
-.fourClubs {
+.Clubs_4 {
 	background: url('imgs/sprite.png') no-repeat -219px 0;
 	width: 71px;
 	height: 96px;
 }
-.fiveClubs {
+.Clubs_5 {
 	background: url('imgs/sprite.png') no-repeat -292px 0;
 	width: 71px;
 	height: 96px;
 }
-.sixClubs {
+.Clubs_6 {
 	background: url('imgs/sprite.png') no-repeat -365px 0;
 	width: 71px;
 	height: 96px;
 }
-.sevenClubs {
+.Clubs_7 {
 	background: url('imgs/sprite.png') no-repeat -438px 0;
 	width: 71px;
 	height: 96px;
 }
-.eightClubs {
+.Clubs_8 {
 	background: url('imgs/sprite.png') no-repeat -511px 0;
 	width: 71px;
 	height: 96px;
 }
-.nineClubs {
+.Clubs_9 {
 	background: url('imgs/sprite.png') no-repeat -584px 0;
 	width: 71px;
 	height: 96px;
 }
-.tenClubs {
+.Clubs_10 {
 	background: url('imgs/sprite.png') no-repeat -657px 0;
 	width: 71px;
 	height: 96px;
 }
-.jackClubs {
+.Clubs_J {
 	background: url('imgs/sprite.png') no-repeat -730px 0;
 	width: 71px;
 	height: 96px;
 }
-.queenClubs {
+.Clubs_Q {
 	background: url('imgs/sprite.png') no-repeat -803px 0;
 	width: 71px;
 	height: 96px;
 }
-.kingClubs {
+.Clubs_K {
 	background: url('imgs/sprite.png') no-repeat -876px 0;
 	width: 71px;
 	height: 96px;
@@ -267,4 +267,4 @@
 	background: url('imgs/sprite.png') no-repeat -876px -294px;
 	width: 71px;
 	height: 96px;
-}  
+}
