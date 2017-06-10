@@ -11,22 +11,33 @@
 
   <body>
     <div id ="maincontainer">
-        <div id ='deck'> deck </div>
-        <div id ='card'class='aceSpades'></div>
-        <div id ='dealerCards'> dealer cards</div>
-        <div id ='cards'> player cards</div>
-        <div id ='score'> player counter </div>
-        <div id ='dealerScore'> dealer counter </div>
+
+        <div id ='dealerCards'>
+          <div class='dealer1'> card</div>
+          <div class='dealer2'> card</div>
+          <div class='dealer3'> card</div>
+          <div class='dealer4'> card</div>
+          <div class='dealer5'> card</div>
+        </div>
+        <div id ='playerCards'>
+          <div class='player1'> card</div>
+          <div class='player2'> card</div>
+          <div class='player3'> card</div>
+          <div class='player4'> card</div>
+          <div class='player5'> card</div>
+        </div>
+        <p id ='playerCounter'></p>
+        <div id ='dealerCounter'></div>
         <div id ='buttons'>
             <button id='hit' disabled="" onClick="hit()">hit</button>
             <button id='stand' disabled="" onClick="dealerPlay()">stand</button>
-            <button id='double' disabled="">double</button>
+            <button id='double' disabled="" onClick="hit(); dealerPlay();">double</button>
       </div>
 
         <button id='dealcards' onClick="deck(); shuffle(); deal();">Deal</button>
 
         </div>
-        
+
 
 
   </body>

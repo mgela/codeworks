@@ -65,8 +65,10 @@ function hit() {
   //  console.log("Player has busted");
   }
 }
-// deals 2 cards and populates global var player and dealer.
+// deals 2 cards only and populates global var player and dealer.
+//1 card must be flipped
 function deal() {
+
   var temp;
   if (cards.length > 0){
     dealer = cards.splice(0,2);
@@ -74,9 +76,15 @@ function deal() {
     //console.log(dealer,player);
   }
 }
+/*function double(){
+	var hitOnce = hit();
+	var standDouble = dealerPlay();
+	hitOnce;
+	standDouble;
+}*/
 
 //count K/Q/J as 10, and count A as 11 if total is less than 11.
-//
+// if total is > 11, another 11 would total 22 (bust)
 function cardCounter(cards) {
 
   var i, total;
@@ -105,7 +113,8 @@ function cardCounter(cards) {
       // console.log(total);
   return total;
 }
-//need function to run until dealer hits 17
+//function will run on Stand.
+// dealer must keep drawing until he hits 17.
 function dealerPlay(){
   //console.log("stand");
   var totalDealer = cardCounter(dealer);
@@ -137,14 +146,5 @@ function getWinner(winner){
   return false;
 
 }
-// BUTTONS
-//$('#score').document.write(cardCounter(player));
 
-
-
-/*console.log(deck());
-console.log(shuffle());
-console.log(deal());
-console.log(player);
-console.log(dealer);
-*/
+document.getElementById("playerCounter").innerHTML = cardCounter(player);

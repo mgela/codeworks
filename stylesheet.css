@@ -9,49 +9,57 @@
   background-image: url("background.jpg");
   background-size: 800px 600px;
 }
-
-#deck{
-  position: absolute;
-  width: 80px;
-  height: 60px;
-  top: 60px;
-  right: 60px;
-  border: dashed 2px;
-  transform: rotate(23deg);
-}
 #dealerCards{
   position: absolute;
   border: dashed 1px;
-  width: 100px;
-  height: 80px;
-  right: 350px;
+  width: 350px;
+  height: 103px;
+  right: 250px;
   top: 0px;
   overflow: visible;
+  display: flex;
 }
-#cards{
+#dealerCards>*{
+flex-direction: column;
+width:inherit;
+height:96px;
+border: dashed 1px;
+margin: 3px;
+}
+#playerCards{
   position: absolute;
-  width: 100px;
-  height: 80px;
+  width: 350px;
+  height:103px;
   bottom: 100px;
-  right: 350px;
+  right: 250px;
   border: dashed 1px;
   overflow: visible;
+  display: flex;
 }
-#score{
+#playerCards>*{
+flex-direction: column;
+width:inherit;
+height:96px;
+border: dashed 1px;
+margin: 3px;
+}
+#playerCounter{
   width: 100px;
-  height: 60px;
+  height: 20px;
   position: absolute;
   top: 300px;
   right: 350px;
-  border: dashed 1px;
+  background-color: black;
+  color: white;
 }
-#dealerScore{
+#dealerCounter{
   width: 100px;
-  height: 60px;
+  height: 20px;
   position: absolute;
   top: 150px;
   right: 350px;
-  border: dashed 1px;
+  background-color: black;
+  color: white;
 }
 #buttons{
   margin: 10px;
