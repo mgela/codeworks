@@ -15,8 +15,10 @@ function card(name, suit, prop){
 }
 
 // deck creation, will return array of 52 cards in order.
+// shuffle it afterwards
 function deck(){
   //console.log("asdasd");
+	// disable buttons so we don't hit before we deal. (error)
   $('#hit').removeAttr('disabled');
   $('#stand').removeAttr('disabled');
   $('#double').removeAttr('disabled');
@@ -32,6 +34,9 @@ function deck(){
 		//console.log(cards);
     return cards;
 }
+console.log(deck()[1]);
+
+
 // fisher yates shuffle algorithm
 function shuffle() {
   var m = cards.length, t, i;
@@ -66,7 +71,7 @@ function hit() {
   }
 }
 // deals 2 cards only and populates global var player and dealer.
-//1 card must be flipped
+//1 card must be flipped (pending)
 function deal() {
 
   var temp;
@@ -76,12 +81,6 @@ function deal() {
     //console.log(dealer,player);
   }
 }
-/*function double(){
-	var hitOnce = hit();
-	var standDouble = dealerPlay();
-	hitOnce;
-	standDouble;
-}*/
 
 //count K/Q/J as 10, and count A as 11 if total is less than 11.
 // if total is > 11, another 11 would total 22 (bust)
@@ -146,5 +145,3 @@ function getWinner(winner){
   return false;
 
 }
-
-document.getElementById("playerCounter").innerHTML = cardCounter(player);
