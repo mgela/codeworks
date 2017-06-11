@@ -7,7 +7,7 @@ var dealer = [];
 var winner = "";
 ////////////////////////////////////////////////////////////////////////////////
 
-function card(name, suit, prop){
+function card(name, suit, cssClass){
 
 	this.name = name;
 	this.suit = suit;
@@ -34,7 +34,7 @@ function deck(){
 		//console.log(cards);
     return cards;
 }
-console.log(deck()[1]);
+//console.log(deck()[1]);
 
 
 // fisher yates shuffle algorithm
