@@ -13,13 +13,6 @@ function card(name, suit, cssClass){
 	this.suit = suit;
   this.cssClass = suit + "_" + name;
 }
-
-
-
-
-
-
-
 // deck creation, will return array of 52 cards in order.
 // shuffle it afterwards
 function deck(){
@@ -68,13 +61,15 @@ function shuffle() {
 // deals 1 card only, multiple hits can "bust" player.
 function hit() {
   //console.log("hit");
+	$('#dealcards').removeAttr('disabled');
 
   if (cards.length > 0)
      player.push(cards.shift());
-		 console.log(player.length);
+		 //console.log(player.length);
 $('#player'+ player.length).addClass(player[player.length-1].cssClass);
-  //console.log("hello");
 
+// 1 second delay so it counts after it shows
+// otherwise it will end game before showing cards
 setTimeout(
 
  function(){
@@ -86,18 +81,9 @@ setTimeout(
 
 		//  console.log("Player has busted");
 		}
-
  },
  1000
  );}
-
- /*var totalPlayer = cardCounter(player);
-  if (totalPlayer > 21){
-    winner = "dealer";
-    getWinner(winner);*/
-
-  //  console.log("Player has busted");
-
 
 // deals 2 cards only and populates global var player and dealer.
 //1 card must be flipped (pending)
@@ -115,8 +101,6 @@ $('#player2').addClass(player[1].cssClass)
 $('#playerCounter').html(cardCounter(player))
 $('#dealerCounter').html(cardCounter(dealer))
 
-
-
 	setTimeout(
 		function(){
 			if (cardCounter(player) == 21){
@@ -127,10 +111,7 @@ $('#dealerCounter').html(cardCounter(dealer))
 	}, 1000
 	);
   }
-
 }
-
-
 //count K/Q/J as 10, and count A as 11 if total is less than 11.
 // if total is > 11, another 11 would total 22 (bust)
 function cardCounter(cards) {

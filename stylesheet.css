@@ -24,8 +24,7 @@
 flex-direction: column;
 width:inherit;
 height:96px;
-width: 82px;
-border: dashed 1px;
+width: 71px;
 margin: 3px;
 }
 #playerCards{
@@ -39,9 +38,8 @@ margin: 3px;
 }
 #playerCards>*{
 flex-direction: column;
-width:inherit;
+width:71px;
 height:96px;
-border: dashed 1px;
 margin: 3px;
 }
 #playerCounter{
